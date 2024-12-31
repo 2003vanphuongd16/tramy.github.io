@@ -1,0 +1,103 @@
+html{
+    background-color: #f0f0f0; /* Màu nền dự phòng */
+    background-size: cover;/*điều chỉnh kích thước ảnh nền sao cho bao phủ vùng chứa*/
+    background-position: center;/*căn chỉnh ảnh nền. center là trung tâm*/
+    font-size: 10px;  /*cố định kích thước văn bản*/
+    background-attachment: fixed;/*cố định ảnh nền*/
+    background-repeat: no-repeat;/*hình nền chỉ xuất hiện 1 lần*/
+    line-height: 1.5;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+h1 {
+    color: rgba(141, 68, 173, 0.8); /* Đặt alpha hợp lý */
+    text-align: center; /* Căn giữa văn bản */
+    text-transform: capitalize; /* Viết hoa chữ cái đầu tiên của mỗi từ */
+    border: 2px solid #8e44ad; /* Viền màu tím */
+    font-size: 4.3rem; /* Kích thước chữ */
+    font-weight: 900; /* Độ đậm chữ */
+    padding-top: 2rem; /* Khoảng cách trên */
+    padding-bottom: 2rem; /* Khoảng cách dưới */
+    width: 70%; /* Giới hạn chiều rộng */
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+    line-height: 1.5; /*khooanrg cách các dòng*/
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Tạo bóng nhẹ cho văn bản */
+    margin-bottom: 5rem ;
+    border-radius: 1.2rem; /* Bo góc cho phần tử */
+}
+#gioi_thieu{
+    border: 1px solid #7acbcb;
+    width: 50%;
+    line-height: 1.8;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    font-size: 2.5rem;
+    margin:0 auto;
+    box-sizing: border-box; /* Đảm bảo padding và border được tính vào width */
+    border-radius: 8px; /* Bo góc cho phần tử */
+    
+}
+#gioi_thieu h2, #gioi_thieu p {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.icon-container {
+    text-align: center; /* Căn giữa nội dung trong container */
+    margin: 1.5rem auto; /* Thêm khoảng cách phía trên và dưới, căn giữa container */
+    padding: 1.5rem;
+    border: 1px solid #3498db;
+    width: 60%;
+    box-sizing: border-box; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px; /* Bo góc cho phần tử */
+}
+.icon-container h3 {
+    font-size: 2.2rem; /* Kích thước chữ cho tiêu đề */
+    font-weight: bold; /* Đậm chữ */
+    margin-bottom: 1.8rem; /* Khoảng cách giữa tiêu đề và các icon */
+}
+
+.icon {
+    display: inline-block; /* Hiển thị các icon nằm ngang */
+    margin: 0 15px; /* Khoảng cách giữa các icon */
+    font-size: 6.5rem; /* Kích thước icon */
+    transition: transform 0.3s ease; /* Thêm hiệu ứng khi hover */
+}
+
+.icon:hover {
+    transform: scale(1.2); /* Tăng kích thước icon khi hover */
+}
+
+.icon i {
+    color: #333; /* Màu sắc mặc định của các icon */
+}
+
+.icon.facebook i {
+    color: #3b5998; /* Màu sắc cho icon Facebook */
+}
+
+.icon.instagram i {
+    color: #E1306C; /* Màu sắc cho icon Instagram */
+}
+
+.icon.tiktok i {
+    color: #000000; /* Màu sắc cho icon TikTok */
+}
+
+h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    object-fit: cover; /* Đảm bảo hình ảnh phủ đầy phần tử mà không bị méo */
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động khi hover */
+    border-radius: 10px; /* Làm tròn góc của hình ảnh */
+    box-shadow: 0 4px 8px rgba(159, 143, 143, 0.2); /* Thêm bóng đổ cho hình ảnh */
+}
+
+img:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+}
+
