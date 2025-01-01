@@ -1,5 +1,5 @@
 html{
-    background: linear-gradient(45deg, #89cff0, #ffcccb);
+
     background-color: #f0f0f0; /* Màu nền dự phòng */
     background-size: cover;/*điều chỉnh kích thước ảnh nền sao cho bao phủ vùng chứa*/
     background-position: center;/*căn chỉnh ảnh nền. center là trung tâm*/
@@ -9,6 +9,10 @@ html{
     line-height: 1.5;
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+body {
+    font-family: "merienda";
+    background: linear-gradient(45deg, #89cff0, #ffcccb);
+   }
 h1 {
     color: rgba(141, 68, 173, 0.8); /* Đặt alpha hợp lý */
     text-align: center; /* Căn giữa văn bản */
